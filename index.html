@@ -30,6 +30,13 @@
       .checked {
         color: orange;
       }
+      .cbtn {
+        background-color: #ff7300;
+        border: 0px;
+        padding: 08px 16px 08px 16px;
+        color: white;
+        font-weight: bold;
+      }
     </style>
     <title>Task</title>
   </head>
@@ -109,8 +116,8 @@
 
     <!-- profile and details div -->
     <div class="container">
-      <div class="row bg-light">
-        <div class="col-xl-4 p-3">
+      <div class="row border">
+        <div class="col-xl-4 p-3 bg-light">
           <div style="margin-top: -50px" class="col-md-12 pb-3">
             <center>
               <img
@@ -151,18 +158,7 @@
               <span style="font-size: 20px">(1200)</span>
             </div>
             <div class="col-sm-4 m-1 p-1">$50/<i>hr</i></div>
-            <button
-              style="
-                background-color: #ff7300;
-                border: 0px;
-                padding: 08px 16px 08px 16px;
-                color: white;
-                font-weight: bold;
-              "
-              class="btn btn-block"
-            >
-              CONTACT
-            </button>
+            <button class="btn btn-block cbtn">CONTACT</button>
           </div>
           <h4>Skills</h4>
           <div class="row pt-2 pl-4 pr-4">
@@ -176,7 +172,7 @@
           </div>
         </div>
         <!-- portfolio and offer -->
-        <div style="background-color: linen" class="col-xl-7">
+        <div style="background-color: transparent" class="col-xl-8 p-3">
           <nav>
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
               <a
@@ -187,28 +183,30 @@
                 role="tab"
                 aria-controls="nav-portfolio"
                 aria-selected="true"
+                style="color: #ff7300; font-weight: bold; font-size: 20px"
                 >Portfolio (10)</a
               >
               <a
-                class="nav-item nav-link"
+                class="nav-item text-dark nav-link"
                 id="nav-offer-tab"
                 data-toggle="tab"
                 href="#nav-offer"
                 role="tab"
                 aria-controls="nav-offer"
                 aria-selected="false"
+                style="font-weight: bold; font-size: 20px"
                 >Offer (17)</a
               >
             </div>
           </nav>
           <div class="tab-content" id="nav-tabContent">
             <div
-              class="tab-pane fade show active bg-light"
+              class="tab-pane fade show active p-3 bg-light"
               id="nav-portfolio"
               role="tabpanel"
               aria-labelledby="nav-portfolio-tab"
             >
-              <div class="row pt-3 p-5">
+              <div class="row pt-3 p-3">
                 <img
                   src="https://picsum.photos/250/150"
                   alt=""
@@ -222,25 +220,54 @@
               </div>
             </div>
             <div
-              class="tab-pane fade bg-light"
+              class="tab-pane p-2 fade bg-light"
               id="nav-offer"
               role="tabpanel"
               aria-labelledby="nav-offer-tab"
             >
-              <div class="row pt-3 p-5">
-                <img
-                  src="https://picsum.photos/250/150"
-                  alt=""
-                  class="img-fluid m-2 img-thumbnail"
-                />
-                <img
-                  src="https://picsum.photos/250/150"
-                  alt=""
-                  class="img-fluid m-2 img-thumbnail"
-                />
+              <div class="row pt-3 p-2">
+                <!-- card -->
+                <div class="card m-2" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="https://dw3i9sxi97owk.cloudfront.net/uploads/hourliesAttachments/thumbs/400x303/2018/05/1a3e9ed64ae1aa36d7f36fd2a0f6fde6.jpeg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-outline-warning btn-block cbtn"
+                      >View</a
+                    >
+                  </div>
+                </div>
+                <!-- card end -->
+                <!-- card -->
+                <div class="card m-2" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="https://dw3i9sxi97owk.cloudfront.net/uploads/hourliesAttachments/thumbs/400x303/2018/05/1a3e9ed64ae1aa36d7f36fd2a0f6fde6.jpeg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-outline-warning btn-block cbtn"
+                      >View</a
+                    >
+                  </div>
+                </div>
+                <!-- card end -->
               </div>
             </div>
           </div>
+          <p>hi</p>
         </div>
       </div>
     </div>
