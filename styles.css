@@ -1,0 +1,41 @@
+.container-fluid {
+  padding: 0px;
+}
+body {
+  background-color: rgb(231, 231, 231);
+}
+.lightgray {
+  color: #707276;
+}
+.centerE {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.checked {
+  color: orange;
+}
+.cbtn {
+  background-color: #ff7300;
+  border: 0px;
+  padding: 08px 16px 08px 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.comment-wrapper .panel-body {
+  max-height: 650px;
+  overflow: auto;
+}
+
+.comment-wrapper .media-list .media img {
+  width: 64px;
+  height: 64px;
+  border: 2px solid #e5e7e8;
+}
+
+.comment-wrapper .media-list .media {
+  border-bottom: 1px dashed #efefef;
+  margin-bottom: 25px;
+}
