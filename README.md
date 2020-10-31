@@ -1,6 +1,6 @@
 # frontend_task
 
-**HTML CSS BOOTSTRAP frontend task**
+**HTML CSS BOOTSTRAP frontend task for an internship**
 
 #### In this project I am trying to replicate UI of peopleperhour.com, Check them [Here](https://www.peopleperhour.com/freelancer/marketing-seo/penprince-m-experienced-guest-post-writer-on-nnjvwn#reviews).
 **I am using -**
